@@ -1,2 +1,2 @@
 # shadowsocks-install
-搬运teddysun大神的SS install
+搬运秋水逸冰大神的SS install

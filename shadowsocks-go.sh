@@ -143,8 +143,8 @@ pre_install(){
     fi
     # Set shadowsocks-go config password
     echo "Please input password for shadowsocks-go:"
-    read -p "(Default password: teddysun.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
+    read -p "(Default password: silence15):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="silence15"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"

@@ -147,7 +147,7 @@ pre_install(){
     [ -z "${shadowsockspwd}" ] && shadowsockspwd="silence15"
     echo
     echo "---------------------------"
-    echo "password = ${shadowsockspwd}"
+    echo "password ="
     echo "---------------------------"
     echo
     # Set shadowsocks-go config port

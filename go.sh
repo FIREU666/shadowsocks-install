@@ -143,7 +143,7 @@ pre_install(){
     fi
     # Set shadowsocks-go config password
     echo "Please input password for shadowsocks-go:"
-    read -p "(Default password: silence15):" shadowsockspwd
+    read -p "(Default password: random):" shadowsockspwd
     [ -z "${shadowsockspwd}" ] && shadowsockspwd="silence15"
     echo
     echo "---------------------------"
@@ -320,7 +320,7 @@ install(){
     echo "Congratulations, Shadowsocks-go install completed!"
     echo -e "Your Server IP: \033[41;37m $(get_ip) \033[0m"
     echo -e "Your Server Port: \033[41;37m ${shadowsocksport} \033[0m"
-    echo -e "Your Password: \033[41;37m ${shadowsockspwd} \033[0m"
+    echo -e "Your Password:"
     echo -e "Your Local Port: \033[41;37m 1080 \033[0m"
     echo -e "Your Encryption Method: \033[41;37m aes-256-cfb \033[0m"
     echo

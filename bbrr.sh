@@ -202,8 +202,8 @@ echo
 echo " URL: https://teddysun.com/489.html"
 echo "----------------------------------------"
 echo
-echo "Press any key to start...or Press Ctrl+C to cancel"
-char=`get_char`
+#echo "Press any key to start...or Press Ctrl+C to cancel"
+#char=`get_char`
 
 install_bbr
 
